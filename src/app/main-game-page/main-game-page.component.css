@@ -1,0 +1,43 @@
+.custom {
+  width: 30px !important;
+  height: 30px !important;
+  text-align: center;
+}
+
+.activetile {
+  background-color: darkgrey;
+}
+
+.one {
+  color: red;
+}
+
+.two {
+  color: blue;
+}
+
+.three {
+  color: green;
+}
+
+.four {
+  color: black;
+}
+
+.five {
+  color: purple;
+}
+
+.six {
+  color: orange;
+}
+
+.seven {
+  color: teal;
+}
+
+.eight {
+  color: olive;
+}
+
+
