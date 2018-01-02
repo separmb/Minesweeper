@@ -3,19 +3,21 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { MainGamePageComponent } from './main-game-page/main-game-page.component';
+import {GameBoardComponent} from './game-board/game-board.component';
 import {ManageGameboardService} from "./manage-gameboard.service";
-import { ControlbarComponent } from './controlbar/controlbar.component';
+import { ControlBarComponent } from './control-bar/control-bar.component';
+import {MatSliderModule} from '@angular/material/slider';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainGamePageComponent,
-    ControlbarComponent
+    GameBoardComponent,
+    ControlBarComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatSliderModule
   ],
   providers: [ManageGameboardService],
   bootstrap: [AppComponent]

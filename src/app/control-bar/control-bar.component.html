@@ -1,0 +1,9 @@
+<div class="well-sm">
+  <h4>Minesweeper</h4>
+  <button class="btn btn-primary btn-sm" (click)="mgs.generateNewBoard()">Restart Game</button>
+  <button class="btn btn-primary btn-sm" (click)="mgs.revealBoard()">Reveal Board</button>
+  <button class="btn btn-primary btn-sm" (click)="mgs.showAboutInfo()">About</button>
+  Board Size: <mat-slider min="1" max="3" step="1" thumbLabel tickInterval="1" #boardSize (input)="onInputChange($event)"></mat-slider>
+</div>
+
+

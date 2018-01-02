@@ -1,0 +1,11 @@
+<div class="well">
+  <div class="row" *ngFor="let x of mgs.gameboard; index as i">
+        <button type="button" class="{{mgs.getTileStyle(y)}}" (click)="mgs.revealTile(i,j)" (contextmenu)="mgs.toggleFlag(i,j)"
+                *ngFor="let y of mgs.gameboard[i]; index as j">{{mgs.getTileValue(y)}}</button>
+  </div>
+{{mgs.rows}} rows X {{mgs.cols}} columns
+</div>
+
+
+
+

@@ -1,8 +1,8 @@
 export interface Tile {
 
-  location: number[];
   isMine: boolean;
   isHidden: boolean;
+  isFlagged: boolean;
   neighboringMines: number;
 
 }
